@@ -1,0 +1,7 @@
+*** WordPress Use Forwarded URLs ***
+
+2014.05.27 - version 0.2
+ * Tweak - added 'plugins_url' filter (thanks justin!)
+
+2014.05.07 - version 0.1
+ * Initial Release :)

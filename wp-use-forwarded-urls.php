@@ -5,7 +5,7 @@
  * Description: Automatically use forwarded URLs if ya got 'em
  * Author: SkyVerge
  * Author URI: http://www.skyverge.com
- * Version: 0.1
+ * Version: 0.2
  *
  * Copyright: (c) 2011-2014 SkyVerge, Inc. (info@skyverge.com)
  *
@@ -95,6 +95,7 @@ class WP_Use_Forwarded_URLs {
 			'stylesheet_directory_uri',
 			'the_content',
 			'the_content_pre',
+			'plugins_url',
 		);
 
 		foreach ( $filters as $filter ) {
