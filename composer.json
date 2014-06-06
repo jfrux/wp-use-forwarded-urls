@@ -1,0 +1,19 @@
+{
+  "name": "skyverge/wp-use-forwarded-urls",
+  "description": "make WordPress use HTTP_X_FORWARDED_HOST for all your links instead of your site URL. No configuration needed.",
+  "keywords": ["wordpress", "plugin", "wp", "forwardhq", "forwarded","urls", "multiple", "url"],
+  "homepage": "https://github.com/skyverge/wp-use-forwarded-urls",
+  "license": "GNU GENERAL PUBLIC LICENSE",
+  "authors": [
+    {
+      "name": "Max Rice",
+      "email": "max@maxrice.com",
+      "homepage": "http://www.maxrice.com/"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=5.3.2",
+    "composer/installers": "v1.0.6"
+  }
+}
